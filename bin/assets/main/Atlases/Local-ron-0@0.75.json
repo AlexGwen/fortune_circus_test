@@ -1,0 +1,20 @@
+{"frames": {
+
+"Ro01":
+{
+	"frame": {"x":1,"y":1,"w":615,"h":156},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":615,"h":156},
+	"sourceSize": {"w":615,"h":156}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "Local-ron-0@0.75.png",
+	"format": "RGBA8888",
+	"size": {"w":617,"h":158},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:baf1cc6ede7d7818165026bd0aa800f3:037bf0f2795ec5bee851a20a66a03562:22cc6a871243d6fd4053f934beb32746$"
+}
+}

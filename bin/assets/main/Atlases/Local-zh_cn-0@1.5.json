@@ -1,0 +1,20 @@
+{"frames": {
+
+"Zh_Cn01":
+{
+	"frame": {"x":1,"y":1,"w":833,"h":491},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":833,"h":491},
+	"sourceSize": {"w":833,"h":491}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "Local-zh_cn-0@1.5.png",
+	"format": "RGBA8888",
+	"size": {"w":835,"h":493},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e62760c8ff7fe107f2f90ea42fc681e7:719f79a69654cd5df0b4e76d8886d08a:5be358c3b3c5ecfdc95bc47b5f790af9$"
+}
+}

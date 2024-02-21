@@ -1,0 +1,20 @@
+{"frames": {
+
+"EL01":
+{
+	"frame": {"x":1,"y":1,"w":1229,"h":175},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1229,"h":175},
+	"sourceSize": {"w":1229,"h":175}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "Local-gre-0@1.5.png",
+	"format": "RGBA8888",
+	"size": {"w":1231,"h":177},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:94367456345d849a23cf7f777315a56c:f20d8dff66f84b7f8e3b461b02016fac:817d284a5e00a92fdb689597232f8f23$"
+}
+}

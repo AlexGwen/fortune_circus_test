@@ -1,0 +1,438 @@
+{
+  "load": [
+    {
+      "loader": "loadAtlas",
+      "deviceFolder": true,
+      "resolution": true,
+      "name": "Resources-0",
+      "file": "Atlases/",
+      "-noWebp": true
+    },
+    {
+      "loader": "loadAtlas",
+      "deviceFolder": true,
+      "resolution": true,
+      "name": "Resources_webp-0",
+      "file": "Atlases/",
+      "active": 0
+    },
+    {"loader": "loadAtlas", "deviceFolder": true, "resolution": true, "name": "UI-0", "file": "Atlases/"},
+    {
+      "loader": "loadAtlas",
+      "active": 1,
+      "deviceFolder": false,
+      "resolution": true,
+      "name": "Local-eng-0",
+      "file": "assets/main/Atlases/",
+      "-locMap": {
+        "deu": "Local-deu-0",
+        "esp": "Local-esp-0",
+        "fra": "Local-fra-0",
+        "gre": "Local-gre-0",
+        "hin": "Local-hin-0",
+        "ind": "Local-ind-0",
+        "ita": "Local-ita-0",
+        "jpn": "Local-jpn-0",
+        "kor": "Local-kor-0",
+        "nor": "Local-nor-0",
+        "pol": "Local-pol-0",
+        "prt": "Local-prt-0",
+        "ron": "Local-ron-0",
+        "rus": "Local-rus-0",
+        "swe": "Local-swe-0",
+        "tha": "Local-tha-0",
+        "tur": "Local-tur-0",
+        "ukr": "Local-ukr-0",
+        "vie": "Local-vie-0",
+        "zh_cn": "Local-zh_cn-0",
+        "zh_tw": "Local-zh_tw-0"
+      }
+    },
+    {"loader": "loadAtlas", "name": "coins", "file": "assets/main/Atlases/"},
+
+    {
+      "loader": "loadImage",
+      "deviceFolder": false,
+      "name": "main_bg.jpg",
+      "file": "assets/main/Single/",
+      "-noWebp": true
+    },
+    {"loader": "loadImage", "deviceFolder": false, "name": "bg_fx.png", "file": "assets/main/Single/", "-noWebp": true},
+    {"loader": "loadImage", "deviceFolder": false, "name": "fugaso_logo.png", "file": "assets/main/Single/"},
+
+    {"loader": "loadImage", "active": 0, "name": "intro_1.png", "file": "assets/Preview/Mobile/"},
+
+    {
+      "loader": "loadImage",
+      "deviceFolder": false,
+      "name": "pt_back_1.png",
+      "file": "assets/desktop/Single/",
+      "-noWebp": true
+    },
+    {
+      "loader": "loadImage",
+      "deviceFolder": false,
+      "name": "pt_back_2.png",
+      "file": "assets/desktop/Single/",
+      "-noWebp": true
+    },
+    {
+      "loader": "loadImage",
+      "deviceFolder": false,
+      "name": "pt_back_3.png",
+      "file": "assets/desktop/Single/",
+      "-noWebp": true
+    },
+    {
+      "loader": "loadImage",
+      "deviceFolder": false,
+      "name": "pt_back_4.png",
+      "file": "assets/desktop/Single/",
+      "-noWebp": true
+    },
+
+    {
+      "loader": "loadAnimationAtlas",
+      "active": false,
+      "url": "assets/main/Animations/",
+      "pref": "effects-",
+      "suf": "",
+      "round": [0, 2]
+    },
+    {
+      "loader": "loadAnimationAtlas",
+      "active": 0,
+      "deviceFolder": false,
+      "name": "Effects-0",
+      "file": "assets/main/Animations/"
+    },
+
+    {"loader": "loadSpine", "jpContent": true, "name": "chestbox_mini", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "name": "logo", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "name": "frame_particle", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "name": "fireworks", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "name": "symb_0", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "name": "symb_1", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "name": "symb_2", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "name": "symb_3", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "name": "symb_4", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "name": "symb_5", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "name": "symb_6", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "name": "symb_7", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "jpContent": true, "name": "chestbox_win", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "jpContent": true, "name": "d2d_jackpot", "file": "assets/main/Animations/Spine/"},
+    {"loader": "loadSpine", "name": "inferno_diamond_100", "file": "assets/main/Animations/Spine/"},
+
+    {"loader": "loadAudioSprite", "name": "sounds", "file": "assets/Sounds/AudioSprite/sounds"},
+
+    {"loader": "loadAnimationAtlas", "deviceFolder": false, "name": "Effects-0", "file": "assets/main/Animations/"},
+
+    {
+      "loader": "loadBitmapFont",
+      "name": "pay_title_font",
+      "file": "assets/font/"
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "menu_2_font",
+      "file": "assets/font/",
+      "locMap": {
+        "gre": "menu_2_font_gre",
+        "jpn": "menu_2_font_jpn",
+        "kor": "menu_2_font_kor",
+        "tha": "menu_2_font_tha",
+        "vie": "menu_2_font_vie",
+        "zh_cn,zh_tw": "menu_2_font_zh_cn"
+      },
+      "lineHeight": {
+        "menu_2_font_zh_tw": 15,
+        "menu_2_font_kor": 15,
+        "menu_2_font_zh_cn": 15
+      }
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "pay_number_font",
+      "file": "assets/font/"
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "pay_number_2_font",
+      "file": "assets/font/"
+    },
+
+    {"loader": "loadBitmapFont", "name": "big_win_font", "file": "assets/font/"},
+    {
+      "loader": "loadBitmapFont",
+      "name": "menu_font",
+      "file": "assets/font/",
+      "locMap": {
+        "gre": "menu_font_gre",
+        "jpn": "menu_font_jpn",
+        "kor": "menu_font_kor",
+        "pol,ron": "menu_font_pol",
+        "tha": "menu_font_tha",
+        "vie": "menu_font_vie",
+        "zh_cn,zh_tw": "menu_font_zh_cn"
+      },
+      "dyMap": {
+        "gre": -10,
+        "jpn": -11,
+        "kor": -12,
+        "pol,ron": -3,
+        "tha": -4,
+        "vie": -2,
+        "zh_cn,zh_tw": -11
+      },
+      "lineHeight": {
+        "menu_font_jpn": 10,
+        "menu_font_zh_cn": 15,
+        "menu_font_kor": 15
+      }
+    },
+    {
+      "loader": "loadBitmapFont",
+      "active": 0,
+      "name": "info_line_port_font",
+      "file": "assets/font/",
+      "locMap": {
+        "gre": "info_line_port_font_gre",
+        "jpn": "info_line_port_font_jpn",
+        "kor": "info_line_port_font_kor",
+        "pol,ron": "info_line_port_font_pol",
+        "tha": "info_line_port_font_tha",
+        "vie": "info_line_port_font_vie",
+        "zh_cn,zh_tw": "info_line_port_font_zh_cn"
+      },
+      "dyMap": {
+        "gre": -9,
+        "jpn": -9,
+        "kor": -10,
+        "pol,ron": -2,
+        "tha": -5,
+        "vie": -2,
+        "zh_cn,zh_tw": -9
+      }
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "info_line_font",
+      "file": "assets/font/",
+      "locMap": {
+        "gre": "info_line_font_gre",
+        "jpn": "info_line_font_jpn",
+        "kor": "info_line_font_kor",
+        "pol,ron": "info_line_font_pol",
+        "tha": "info_line_font_tha",
+        "vie": "info_line_font_vie",
+        "zh_cn,zh_tw": "info_line_font_zh_cn"
+      }
+    },
+
+    {"loader": "loadBitmapFont", "jpContent": true, "name": "jackpot_font", "file": "assets/font/", "xml": true},
+    {
+      "loader": "loadBitmapFont",
+      "jpContent": true,
+      "name": "jackpot_title_70",
+      "file": "assets/font/",
+      "locMap": {
+        "jpn": "jackpot_title_70_jpn",
+        "kor": "jackpot_title_70_kor",
+        "tha": "jackpot_title_70_tha",
+        "zh_cn,zh_tw": "jackpot_title_70_zh_cn"
+      }
+    },
+    {
+      "loader": "loadBitmapFont",
+      "jpContent": true,
+      "name": "jackpot_title_35",
+      "file": "assets/font/",
+      "locMap": {
+        "jpn": "jackpot_title_35_jpn",
+        "kor": "jackpot_title_35_kor",
+        "tha": "jackpot_title_35_tha",
+        "zh_cn,zh_tw": "jackpot_title_35_zh_cn"
+      }
+    },
+    {
+      "loader": "loadBitmapFont",
+      "jpContent": true,
+      "name": "jp_lose_font",
+      "file": "assets/font/",
+      "locMap": {
+        "gre": "jp_lose_font_gre",
+        "jpn": "jp_lose_font_jpn",
+        "kor": "jp_lose_font_kor",
+        "pol,ron": "jp_lose_font_pol",
+        "tha": "jp_lose_font_tha",
+        "vie": "jp_lose_font_vie",
+        "zh_cn,zh_tw": "jp_lose_font_zh_cn"
+      },
+      "dyMap": {
+        "gre": -5,
+        "jpn": 5,
+        "kor": 5,
+        "pol": -5,
+        "ron": -5,
+        "tha": 4,
+        "zh_cn": 5,
+        "zh_tw": 5
+      }
+    },
+
+    {
+      "loader": "loadBitmapFont",
+      "name": "ui_font",
+      "file": "assets/font/",
+      "locMap": {
+        "gre,pol,ron,vie": "ui_font_gre",
+        "jpn": "ui_font_jpn",
+        "kor": "ui_font_kor",
+        "tha": "ui_font_tha",
+        "zh_cn,zh_tw": "ui_font_zh_cn"
+      }
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "ui_number_font",
+      "file": "assets/font/"
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "ui_menu_font",
+      "file": "assets/font/",
+      "locMap": {
+        "gre,pol,ron,vie": "ui_menu_font_gre",
+        "jpn": "ui_menu_font_jpn",
+        "kor": "ui_menu_font_kor",
+        "tha": "ui_menu_font_tha",
+        "zh_cn,zh_tw": "ui_menu_font_zh_cn"
+      },
+      "lineHeight": {
+        "ui_menu_font_jpn": 7,
+        "ui_menu_font_zh_cn": 10
+      }
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "ui_menu_number_font",
+      "file": "assets/font/"
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "calc_font",
+      "file": "assets/font/"
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "ui_stroke_mobile_font",
+      "file": "assets/font/",
+      "locMap": {
+        "gre,pol,ron,vie": "ui_stroke_mobile_font_gre",
+        "jpn": "ui_stroke_mobile_font_jpn",
+        "kor": "ui_stroke_mobile_font_kor",
+        "tha": "ui_stroke_mobile_font_tha",
+        "zh_cn,zh_tw": "ui_stroke_mobile_font_zh_cn"
+      }
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "ui_stroke_mobile_number_font",
+      "file": "assets/font/"
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "pl_f_fun_font",
+      "file": "assets/font/",
+      "locMap": {
+        "gre,pol,ron,vie": "pl_f_fun_font_gre",
+        "jpn": "pl_f_fun_font_jpn",
+        "kor": "pl_f_fun_font_kor",
+        "tha": "pl_f_fun_font_tha",
+        "zh_cn,zh_tw": "pl_f_fun_font_zh_cn"
+      }
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "t_history_font",
+      "file": "assets/font/",
+      "locMap": {
+        "gre,rus,ukr,vie": "t_history_font_gre",
+        "jpn": "t_history_font_jpn",
+        "kor": "t_history_font_kor",
+        "tha": "t_history_font_tha",
+        "zh_cn,zh_tw": "t_history_font_zh_cn"
+      },
+      "dyMap": {
+        "rus": -18,
+        "ukr": -18,
+        "vie": -18,
+        "gre": -18
+      },
+      "lineHeight": {
+        "t_history_font": 8,
+        "t_history_font_gre": 5,
+        "t_history_font_jpn": 18,
+        "t_history_font_kor": 18,
+        "t_history_font_zh_cn": 18
+      }
+    },
+    {
+      "loader": "loadBitmapFont",
+      "name": "reality_font",
+      "file": "assets/font/",
+      "locMap": {
+        "gre,pol,ron,vie": "reality_font_gre",
+        "jpn": "reality_font_jpn",
+        "kor": "reality_font_kor",
+        "tha": "reality_font_tha",
+        "zh_cn,zh_tw": "reality_font_zh_cn"
+      },
+      "lineHeight": {
+        "reality_font_jpn": 7,
+        "reality_font_kor": 7,
+        "reality_font_zh_cn": 7
+      }
+    },
+
+    {"loader": "loadJson", "deviceFolder": true, "name": "GDGui", "file": ""},
+    {"loader": "loadJson", "name": "GDMain", "file": "assets/"},
+    {"loader": "loadJson", "name": "GDReality", "file": "assets/"},
+    {"loader": "loadJson", "name": "GDReels", "file": "assets/"},
+    {"loader": "loadJson", "name": "GDSlotSymbol", "file": "assets/"},
+    {"loader": "loadJson", "name": "GDWinEffect", "file": "assets/"},
+    {"loader": "loadJson", "active": 0, "name": "GDFreeGameBegin", "file": "assets/"},
+    {"loader": "loadJson", "active": 0, "name": "GDFreeGameEnd", "file": "assets/"},
+    {"loader": "loadJson", "active": 0, "name": "GDFreeInFree", "file": "assets/"},
+    {"loader": "loadJson", "active": 0, "name": "GDFreeBuy", "file": "assets/"},
+    {"loader": "loadJson", "name": "GDBet", "file": "assets/"},
+    {"loader": "loadJson", "name": "GDMenu", "file": "assets/"},
+    {"loader": "loadJson", "name": "GDCalc", "file": "assets/"},
+    {"loader": "loadJson", "name": "GDHistoryBlock", "file": "assets/"},
+    {"loader": "loadJson", "active": 1, "name": "GDIntro", "file": "assets/"},
+    {"loader": "loadJson", "active": 1, "name": "GDIntroInfo", "file": "assets/"},
+    {"loader": "loadJson", "active": 0, "name": "GDBonus", "file": "assets/"},
+    {"loader": "loadJson", "active": 0, "name": "GDGamble", "file": "assets/"},
+
+    {"loader": "loadJson", "active": 1, "name": "DebugRequest", "file": "assets/"},
+
+    {"loader": "loadJson", "active": 0, "name": "emitter (3)", "file": "assets/particles/"}
+  ],
+  "particle": [{"name": "New Bundle", "file": ""}],
+  "neutrino": [
+    {"loader": "loadNeutrino", "active": 1, "name": "purple", "file": "assets/particles/"},
+    {"loader": "loadNeutrino", "active": 1, "name": "purple_sparks", "file": "assets/particles/"}
+  ],
+  "sound": [
+    {
+      "loader": "loadAudio",
+      "active": 0,
+      "name": "ambienceGeneral",
+      "file": "assets/Sounds/",
+      "volume": 1,
+      "type": "music"
+    },
+    {"loader": "loadAudio", "active": 0, "name": "big win_ END", "file": "assets/Sounds/", "volume": 1, "type": "sound"}
+  ],
+  "spriteSheetEff": null
+}

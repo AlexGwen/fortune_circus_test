@@ -1,0 +1,20 @@
+{"frames": {
+
+"JP01":
+{
+	"frame": {"x":1,"y":1,"w":921,"h":302},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":921,"h":302},
+	"sourceSize": {"w":921,"h":302}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "Local-jpn-0@1.125.png",
+	"format": "RGBA8888",
+	"size": {"w":923,"h":304},
+	"scale": "0.75",
+	"smartupdate": "$TexturePacker:SmartUpdate:91152feece5423f6479500f1d230dde2:62bffd3d41016e2651924dd7428fc0c3:848a54217676732d3b41475a7b4200f9$"
+}
+}

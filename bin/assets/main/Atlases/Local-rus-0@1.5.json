@@ -1,0 +1,20 @@
+{"frames": {
+
+"RU01":
+{
+	"frame": {"x":1,"y":1,"w":1247,"h":168},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1247,"h":168},
+	"sourceSize": {"w":1247,"h":168}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "Local-rus-0@1.5.png",
+	"format": "RGBA8888",
+	"size": {"w":1249,"h":170},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a7d76d26421690628d7baf1e49703c99:ef50f54abfafed60354a44429157f353:a57cdf56cd4a4e019ec4ad89730e2650$"
+}
+}

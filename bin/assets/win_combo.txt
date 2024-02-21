@@ -1,0 +1,9 @@
+win scatter = [225,34,19,1,104]
+win coins = [70,27,100,2,199]
+big win = [131,75,156,39,70]
+
+simple win - 100
+bigger win - 1000
+big win - 6000
+mega win -
+epic win -

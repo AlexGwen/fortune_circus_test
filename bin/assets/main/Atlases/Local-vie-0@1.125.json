@@ -1,0 +1,20 @@
+{"frames": {
+
+"Vi01":
+{
+	"frame": {"x":1,"y":1,"w":928,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":928,"h":218},
+	"sourceSize": {"w":928,"h":218}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "Local-vie-0@1.125.png",
+	"format": "RGBA8888",
+	"size": {"w":930,"h":220},
+	"scale": "0.75",
+	"smartupdate": "$TexturePacker:SmartUpdate:2b38fa959fa16d2019f3b48369b22d0c:f3c0759c639cbea26c471d842140045f:d5076fa54a5b6bec0b1c29a408a345bb$"
+}
+}

@@ -1,0 +1,20 @@
+{"frames": {
+
+"IT01":
+{
+	"frame": {"x":1,"y":1,"w":923,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":923,"h":131},
+	"sourceSize": {"w":923,"h":131}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "Local-ita-0@1.125.png",
+	"format": "RGBA8888",
+	"size": {"w":925,"h":133},
+	"scale": "0.75",
+	"smartupdate": "$TexturePacker:SmartUpdate:1ce53d335a527b3f0fc2c03a714211a6:8213ec50618829bc920ceb8fe732a97a:ef9ac1926c6acb15455f590b94ee8554$"
+}
+}
